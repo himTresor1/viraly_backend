@@ -7,8 +7,8 @@
   "author": "Amizero Peace <peaceamizero@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build"
+    "start": "node init && sanity start",
+    "build": "node init && sanity build"
   },
   "keywords": [
     "sanity"
